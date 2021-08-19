@@ -70,6 +70,8 @@ namespace MovieApp
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}" );
+                    /* Bu yukarıdaki satırlar rotalamayı temsil ediyor. 
+                       Önce Controller daha sonra action çalıştırılır.*/
             });
 
         }
