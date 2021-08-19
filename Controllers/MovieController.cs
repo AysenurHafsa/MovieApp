@@ -28,7 +28,7 @@ namespace MovieApp.Controllers
 
          public IActionResult List()
          {
-           //
+           /* Bu action sistemde var olan bütün filmleri getirir */
            return View();
          }
     }
